@@ -168,7 +168,7 @@ namespace TicTacToe {
 
 			Board.drawBoard();
 
-			// Prüfe ob jmd gewonnen hat
+			// PrÃ¼fe ob jmd gewonnen hat
 			if (Board.gameover())
 			{
 				std::cout << "\n" << Board.getWinner() << " won" << std::endl;
