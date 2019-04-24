@@ -2,18 +2,14 @@
 #include "Gameboard.h"
 #include "Enemy.h" 
 #include <string>
-
 #include <WinSock2.h>
 #include <Windows.h>
-
 #pragma comment( lib, "ws2_32.lib" )
-
 namespace TicTacToe
 {
 	
 	extern int pos;				// players input pos
 	extern std::string s_input;	// player pos input - s_input is used to check if the players input is out of range
-
 	//Recv Codes
 	//0001 = Only one Player
 	//0002 = Two players

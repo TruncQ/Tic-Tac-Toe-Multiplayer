@@ -2,7 +2,6 @@
 #include "Gameboard.h"
 #include <time.h>
 #include <random>
-
 class Enemy
 {
 public:
