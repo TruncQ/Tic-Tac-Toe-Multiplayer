@@ -6,12 +6,9 @@
 #include <thread>
 #include <random>
 #include <ctime>
-
 #define MAX_CLIENTS 100
 #define MIN_CLIENTS 2
-
 namespace Server {
-
 	int startWinsock();														// Setup Winsock
 	void StartGame(SOCKET(_clients)[MAX_CLIENTS][MIN_CLIENTS], int _pos);	// Two players play against each other
 	void PrepareServer();													// Start the server
